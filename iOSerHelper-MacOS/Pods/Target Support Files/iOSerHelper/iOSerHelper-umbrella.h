@@ -12,6 +12,7 @@
 
 #import "IHNetServiceBrowser.h"
 #import "IHNetServicePublisher.h"
+#import "iOSerHelper.h"
 
 FOUNDATION_EXPORT double iOSerHelperVersionNumber;
 FOUNDATION_EXPORT const unsigned char iOSerHelperVersionString[];

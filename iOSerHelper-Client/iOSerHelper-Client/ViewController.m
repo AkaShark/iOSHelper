@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-#import <iOSerHelper/IHNetServicePublisher.h>
+#import <iOSerHelper/iOSerHelper.h>
 @interface ViewController ()
 
 @end
@@ -16,8 +16,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    IHNetServicePublisher *publish = [[IHNetServicePublisher alloc] init];
-    [publish startPushService];
+    IHNetServicePublisher *browser = [[IHNetServicePublisher alloc] init];
+    [browser startPushService];
 }
 
 

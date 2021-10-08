@@ -19,15 +19,111 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F24199F8-82A3-4593-9145-B5F35EE1DFF8"
+            uuid = "EF963D5C-21A4-4229-89C3-2AFFE85AED60"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../iOSerHelper/iOSerHelper/Classes/IHNetServiceBrowser.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "-netServiceBrowserWillSearch:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87D9C5D6-0B2B-4662-9C08-1BE2A50828B6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../iOSerHelper/iOSerHelper/Classes/IHNetServiceBrowser.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "-netServiceBrowserDidStopSearch:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E0B2930-E585-447A-B5E9-1A85A7E9A519"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../iOSerHelper/iOSerHelper/Classes/IHNetServiceBrowser.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "-netServiceBrowser:didFindService:moreComing:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5E0B2930-E585-447A-B5E9-1A85A7E9A519 - bc5618cb022462a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[IHNetServiceBrowser netServiceBrowser:didFindService:moreComing:]"
+                  moduleName = "iOSerHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sharker/Documents/project/iOSHelper/iOSerHelper/iOSerHelper/Classes/IHNetServiceBrowser.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "142">
+               </Location>
+               <Location
+                  uuid = "5E0B2930-E585-447A-B5E9-1A85A7E9A519 - bc5618cb022462a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[IHNetServiceBrowser netServiceBrowser:didFindService:moreComing:]"
+                  moduleName = "iOSerHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sharker/Documents/project/iOSHelper/iOSerHelper/iOSerHelper/Classes/IHNetServiceBrowser.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "83">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC47DBF7-7B15-47BE-B661-162B4A0FB8B3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../iOSerHelper/iOSerHelper/Classes/IHNetServiceBrowser.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "-netServiceBrowser:didFindDomain:moreComing:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89CF0E7D-A5EA-42FF-8DB6-A5297C1CD49F"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../iOSerHelper/iOSerHelper/Classes/IHNetServicePublisher.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "-netServiceDidPublish:"
             landmarkType = "7">
          </BreakpointContent>
@@ -35,15 +131,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7BDCA9D6-CF13-4252-A77C-6B48C656DB1A"
+            uuid = "7606F04D-55CB-4893-B67D-A0031D506977"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../iOSerHelper/iOSerHelper/Classes/IHNetServicePublisher.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "-netService:didNotPublish:"
             landmarkType = "7">
          </BreakpointContent>

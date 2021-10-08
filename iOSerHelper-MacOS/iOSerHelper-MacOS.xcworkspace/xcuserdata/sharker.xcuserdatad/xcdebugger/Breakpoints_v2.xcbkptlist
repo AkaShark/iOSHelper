@@ -39,31 +39,111 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D8A10B3D-2EEC-4FB0-90D1-DAD5BBF7C8E7"
+            uuid = "E6020FC1-48D6-4CA0-BDF0-9B6DB59B8473"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../iOSerHelper/iOSerHelper/Classes/IHNetServicePublisher.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "-netServiceDidPublish:"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E6020FC1-48D6-4CA0-BDF0-9B6DB59B8473 - 908b28e8ce064017"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[IHNetServicePublisher netServiceWillPublish:]"
+                  moduleName = "iOSerHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sharker/Documents/project/iOSHelper/iOSerHelper/iOSerHelper/Classes/IHNetServicePublisher.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "51">
+               </Location>
+               <Location
+                  uuid = "E6020FC1-48D6-4CA0-BDF0-9B6DB59B8473 - 1a30ca38e5daa6dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[IHNetServicePublisher netServiceDidPublish:]"
+                  moduleName = "iOSerHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sharker/Documents/project/iOSHelper/iOSerHelper/iOSerHelper/Classes/IHNetServicePublisher.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C3C97C81-11F9-43E8-A5F6-2929CE7A4E32"
+            uuid = "C47B1E74-E863-4FBB-AE9F-A0DAF3F1846F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../iOSerHelper/iOSerHelper/Classes/IHNetServicePublisher.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-netService:didNotPublish:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C47B1E74-E863-4FBB-AE9F-A0DAF3F1846F - 908b28e8ce0640f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[IHNetServicePublisher netServiceWillPublish:]"
+                  moduleName = "iOSerHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sharker/Documents/project/iOSHelper/iOSerHelper/iOSerHelper/Classes/IHNetServicePublisher.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  uuid = "C47B1E74-E863-4FBB-AE9F-A0DAF3F1846F - 85da99531b242dc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[IHNetServicePublisher netService:didNotPublish:]"
+                  moduleName = "iOSerHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sharker/Documents/project/iOSHelper/iOSerHelper/iOSerHelper/Classes/IHNetServicePublisher.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1FC2AC15-6BD3-41AE-B795-439B789AB568"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../iOSerHelper/iOSerHelper/Classes/IHNetServiceBrowser.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "-netServiceBrowser:didFindService:moreComing:"
             landmarkType = "7">
          </BreakpointContent>

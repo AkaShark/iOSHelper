@@ -4,7 +4,7 @@
 <dict>
 	<key>NSBonjourServices</key>
 	<array>
-		<string>_helper._tcp.</string>
+		<string>_IH._tcp.</string>
 	</array>
 	<key>NSLocalNetworkUsageDescription</key>
 	<string>获取本地服务</string>

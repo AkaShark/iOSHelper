@@ -3,7 +3,7 @@
 //  CocoaAsyncSocket
 //
 //  Created by Sharker on 2021/9/10.
-//  Bonjour 发现服务 负责接受host addr port参数
+//  Bonjour 发现服务 
 
 #import <Foundation/Foundation.h>
 

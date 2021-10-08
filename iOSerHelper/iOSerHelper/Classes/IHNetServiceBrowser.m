@@ -10,8 +10,9 @@
 #import <UIKit/UIKit.h>
 #endif
 
-static NSString *const IHDomainString = @"";
-static NSString *const IHServiceTypeString = @"_IH._tcp";
+static NSString *const IHDomainString = @"local.";
+static NSString *const IHServiceTypeString = @"_IH._tcp.";
+
 static NSTimeInterval const IHResolveTimeout = 30;
 static NSUInteger const IHRetrySearchServiceTimes = 3;
 @interface IHNetServiceBrowser() <NSNetServiceDelegate,NSNetServiceBrowserDelegate>
@@ -20,17 +21,22 @@ static NSUInteger const IHRetrySearchServiceTimes = 3;
 @end
 
 @implementation IHNetServiceBrowser
-- (void)startBrowsing {
-    if (self.browser) {
-        [self.browser stop];
-        self.browser.delegate = nil;
-        self.browser = nil;
-        [self.services removeAllObjects];
+
+- (instancetype)init {
+    if (self = [super init]) {
+        [self configBrowser];
     }
+    return self;
+}
+
+- (void)configBrowser {
     self.browser = [[NSNetServiceBrowser alloc] init];
     self.browser.delegate = self;
     self.browser.includesPeerToPeer = YES;
-    [self.browser searchForServicesOfType:IHServiceTypeString inDomain:IHDomainString];
+}
+
+- (void)startBrowsing {
+    [self.browser searchForServicesOfType:@"_chat._tcp." inDomain:@"local."];
 }
 
 - (void)restartBrowsing {
@@ -68,6 +74,7 @@ static NSUInteger const IHRetrySearchServiceTimes = 3;
 - (void)netServiceWillResolve:(NSNetService *)sender {
     NSLog(@"%s", __func__);
 }
+
 - (void)netServiceBrowser:(NSNetServiceBrowser *)browser didFindService:(NSNetService *)service moreComing:(BOOL)moreComing {
     [self.services addObject:service];
     service.delegate = self;

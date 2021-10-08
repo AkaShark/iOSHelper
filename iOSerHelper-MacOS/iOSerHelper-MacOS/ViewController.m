@@ -12,17 +12,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    IHNetServicePublisher *publisher = [[IHNetServicePublisher alloc] init];
-    [publisher startPushService];
-    
-//    IHNetServiceBrowser *browser = [[IHNetServiceBrowser alloc] init];
-//    [browser startBrowsing];
+    IHNetServiceBrowser *publisher = [[IHNetServiceBrowser alloc] init];
+    [publisher startBrowsing];
 }
-
-
-- (void)setRepresentedObject:(id)representedObject {
-    [super setRepresentedObject:representedObject];
-}
-
 
 @end

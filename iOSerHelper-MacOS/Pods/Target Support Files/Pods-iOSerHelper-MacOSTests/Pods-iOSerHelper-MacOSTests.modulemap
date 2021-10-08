@@ -1,0 +1,6 @@
+framework module Pods_iOSerHelper_MacOSTests {
+  umbrella header "Pods-iOSerHelper-MacOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

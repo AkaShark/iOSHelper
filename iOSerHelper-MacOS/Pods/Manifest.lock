@@ -1,0 +1,27 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - iOSerHelper (0.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - iOSerHelper (from `../iOSerHelper`)
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - Masonry
+
+EXTERNAL SOURCES:
+  iOSerHelper:
+    :path: "../iOSerHelper"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  iOSerHelper: a67269365cb65bdf1226586f70e1aec538946b6a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: e0e6becacbd6a664e461e7a4c54094a1e7e6fcc4
+
+COCOAPODS: 1.10.2

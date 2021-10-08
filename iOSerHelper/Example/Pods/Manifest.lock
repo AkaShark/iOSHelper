@@ -1,0 +1,16 @@
+PODS:
+  - iOSerHelper (0.1.0)
+
+DEPENDENCIES:
+  - iOSerHelper (from `../`)
+
+EXTERNAL SOURCES:
+  iOSerHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSerHelper: b379baf29e5cbe7c205c6225162e1a9efa4ef8b5
+
+PODFILE CHECKSUM: f81350bc81986266715855ac2677ae840fcfd28f
+
+COCOAPODS: 1.10.2

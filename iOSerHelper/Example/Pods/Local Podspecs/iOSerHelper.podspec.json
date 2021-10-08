@@ -1,0 +1,22 @@
+{
+  "name": "iOSerHelper",
+  "version": "0.1.0",
+  "summary": "A short description of iOSerHelper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1548742234@qq.com/iOSerHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1548742234@qq.com": "1548742234@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1548742234@qq.com/iOSerHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "iOSerHelper/Classes/**/*"
+}

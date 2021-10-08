@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'iOSerHelper-MacOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+	pod 'Masonry'
+	pod 'CocoaAsyncSocket'
+  pod 'iOSerHelper', :path =>'../iOSerHelper'
+  # Pods for iOSerHelper-MacOS
+
+  target 'iOSerHelper-MacOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'iOSerHelper-MacOSUITests' do
+    # Pods for testing
+  end
+
+end
